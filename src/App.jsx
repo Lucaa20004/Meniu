@@ -1,4 +1,4 @@
-import { CircleHelpIcon, HeadsetIcon, LogOutIcon, SearchIcon, SettingsIcon, UserIcon } from 'lucide-react'
+import { CircleHelpIcon, HeadsetIcon, LogOutIcon, SearchIcon, SettingsIcon, UserIcon, WalletIcon } from 'lucide-react'
 import React from 'react'
 import  { useState } from 'react';
 import { motion , AnimatePresence  } from 'framer-motion';
@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className=" flex flex-row bg-gray-400">
     <div class="flex flex-col h-screen w-25 bg-gray-700 items-center p-5 ">
-      <button onClick={() => setActiveSection('money')} className="flex items-center justify-center p-4 bg-gray-400 m-5 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><SearchIcon/></button>
+      <button onClick={() => setActiveSection('money')} className="flex items-center justify-center p-4 bg-gray-400 m-5 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><WalletIcon/></button>
       <button onClick={() => setActiveSection('user')} className="flex items-center justify-center p-4 bg-gray-400 m-5 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><UserIcon/></button>
       <button onClick={() => setActiveSection('settings')} className="flex items-center justify-center p-4 bg-gray-400 m-5 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><SettingsIcon/></button>
       <button onClick={() => setActiveSection('help')} className="flex items-center justify-center p-4 bg-gray-400 m-5 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><CircleHelpIcon/></button>
@@ -27,20 +27,24 @@ const App = () => {
           layout={false}
           className="flex justify-center items-center h-screen w-full"
           >
-            <div>Subscriptions</div>
+            <div className="flex flex-row items-center justify-center">
+              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl">optiune1</div>
+              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl">optiune2</div>
+              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl">optiune3</div>
+            </div>
           </motion.div>
         )}
         {activeSection === 'help' && (
           <motion.div
           key="help"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.3 }}
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 0.9 }}
+          transition={{ duration: 0.3 , ease: "easeInOut"}}
           style={{
             position: "absolute", 
-            top: "50%", 
-            left: "50%", 
+            top: "10%", 
+            left: "12%", 
             transform: "translate(-50%, -50%)", // Centrează pe orizontală și verticală
             display: "grid",
             gridTemplateColumns: "repeat(4, 1fr)", // Configurează coloanele
@@ -48,7 +52,7 @@ const App = () => {
             justifyItems: "center", // Centrează elementele pe orizontală în grid
             alignItems: "center", // Centrează elementele pe verticală în grid
           }}          
-          className="grid grid-cols-2 md:grid-cols-4 grid-rows-2 gap-40"
+           
           >
           <div className="flex flex-col justify-center w-100 h-130 bg-blue-300 rounded-2xl shadow-cyan-950/50 shadow-lg hover:cursor-pointer transition duration-400 hover:shadow-cyan-950 hover:ring-2 text-cyan-950/50">
           <div className="flex items-center justify-center h-80 w-100 ">
