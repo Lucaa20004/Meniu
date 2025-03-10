@@ -1,4 +1,4 @@
-import { LogOutIcon, SearchIcon, SettingsIcon, UserIcon } from 'lucide-react'
+import { HeadsetIcon, LogOutIcon, SearchIcon, SettingsIcon, UserIcon } from 'lucide-react'
 import React from 'react'
 
 const App = () => {
@@ -18,8 +18,8 @@ const App = () => {
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl">Contact</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl">Hire</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">  Contact</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Hire</div>
         </div>
       </div>
 
@@ -29,8 +29,8 @@ const App = () => {
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl">Contact</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl">Hire</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Contact</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Hire</div>
         </div>
       </div>
 
@@ -40,8 +40,8 @@ const App = () => {
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl">Contact</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl">Hire</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Contact</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Hire</div>
         </div>
       </div>
 
@@ -51,8 +51,8 @@ const App = () => {
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl">Contact</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl">Hire</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Contact</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Hire</div>
         </div>
       </div>
 
@@ -62,8 +62,8 @@ const App = () => {
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl">Contact</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl">Hire</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Contact</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Hire</div>
         </div>
       </div>
 
@@ -73,8 +73,8 @@ const App = () => {
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl">Contact</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl">Hire</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Contact</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Hire</div>
         </div>
       </div>
 
@@ -84,8 +84,8 @@ const App = () => {
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl">Contact</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl">Hire</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Contact</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Hire</div>
         </div>
       </div>
 
@@ -95,8 +95,8 @@ const App = () => {
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl">Contact</div>
-          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl">Hire</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Contact</div>
+          <div className="flex items-center justify-center text-black bg-gray-300 h-13 w-95 m-4 rounded-2xl text-2xl hover:text-cyan-600 hover:ring-2 hover:bg-gray-700 transition duration-400">Hire</div>
         </div>
       </div>
       
