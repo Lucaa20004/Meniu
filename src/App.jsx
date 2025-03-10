@@ -1,7 +1,7 @@
 import { CircleHelpIcon, HeadsetIcon, LogOutIcon, SearchIcon, SettingsIcon, UserIcon } from 'lucide-react'
 import React from 'react'
 import  { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion , AnimatePresence  } from 'framer-motion';
 
 const App = () => {
   const [showCards, setShowCards] = useState(true);
@@ -15,15 +15,14 @@ const App = () => {
       <button className="flex align-baseline items-center justify-center p-4 bg-gray-400 m-240 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><LogOutIcon/></button>
 
     </div>
-    <motion.div
-        className="grid bg-gray-400 h-screen w-full items-center justify-center grid-cols-4 place-items-center"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: showCards ? 1 : 0 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 1 }}
-      >
+    <AnimatePresence>
       {showCards && (
-      <>
+      <motion.div
+      className="grid bg-gray-400 h-screen w-full items-center justify-center grid-cols-4 place-items-center"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: showCards ? 1 : 0 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 1 }}>
         
         <div className="flex flex-col justify-center w-100 h-130 bg-blue-300 rounded-2xl shadow-cyan-950/50 shadow-lg hover:cursor-pointer transition duration-400 hover:shadow-cyan-950 hover:ring-2 text-cyan-950/50">
           <div className="flex items-center justify-center h-80 w-100 ">
@@ -129,9 +128,9 @@ const App = () => {
           </div>
         </div>
         
-      </>
+      </motion.div>
       )}
-    </motion.div>
+    </AnimatePresence>
    </div>
     
   )
