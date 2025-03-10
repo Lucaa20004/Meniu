@@ -14,7 +14,7 @@ const App = () => {
     <div className="grid bg-gray-400 h-screen w-full items-center justify-center grid-cols-4 place-items-center">
       <div className="flex flex-col justify-center w-100 h-130 bg-white rounded-2xl shadow-cyan-950/50 shadow-lg hover:cursor-pointer transition duration-400 hover:shadow-cyan-950 hover:ring-2 text-cyan-950/50">
         <div className="flex items-center justify-center h-80 w-100 ">
-          Photo
+          <div className="flex items-center justify-center bg-white h-70 w-70 rounded-full ring-6">Photo</div>
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
@@ -25,7 +25,7 @@ const App = () => {
 
       <div className="flex flex-col items-center justify-center w-100 h-130 bg-white rounded-2xl shadow-cyan-950/50 shadow-lg hover:cursor-pointer transition duration-400 hover:shadow-cyan-950 hover:ring-2 text-cyan-950/50">
         <div className="flex items-center justify-center h-80 w-100 ">
-          Photo
+          <div className="flex items-center justify-center bg-white h-70 w-70 rounded-full ring-6">Photo</div>
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
@@ -36,7 +36,7 @@ const App = () => {
 
       <div className="flex flex-col items-center justify-center w-100 h-130 bg-white rounded-2xl shadow-cyan-950/50 shadow-lg hover:cursor-pointer transition duration-400 hover:shadow-cyan-950 hover:ring-2 text-cyan-950/50">
         <div className="flex items-center justify-center h-80 w-100 ">
-          Photo
+          <div className="flex items-center justify-center bg-white h-70 w-70 rounded-full ring-6">Photo</div>
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
@@ -47,7 +47,7 @@ const App = () => {
 
       <div className="flex flex-col items-center justify-center w-100 h-130 bg-white rounded-2xl shadow-cyan-950/50 shadow-lg hover:cursor-pointer transition duration-400 hover:shadow-cyan-950 hover:ring-2 text-cyan-950/50">
         <div className="flex items-center justify-center h-80 w-100 ">
-          Photo
+          <div className="flex items-center justify-center bg-white h-70 w-70 rounded-full ring-6">Photo</div>
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
@@ -58,7 +58,7 @@ const App = () => {
 
       <div className="flex flex-col items-center justify-center w-100 h-130 bg-white rounded-2xl shadow-cyan-950/50 shadow-lg hover:cursor-pointer transition duration-400 hover:shadow-cyan-950 hover:ring-2 text-cyan-950/50">
         <div className="flex items-center justify-center h-80 w-100 ">
-          Photo
+          <div className="flex items-center justify-center bg-white h-70 w-70 rounded-full ring-6">Photo</div>
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
@@ -69,7 +69,7 @@ const App = () => {
 
       <div className="flex flex-col items-center justify-center w-100 h-130 bg-white rounded-2xl shadow-cyan-950/50 shadow-lg hover:cursor-pointer transition duration-400 hover:shadow-cyan-950 hover:ring-2 text-cyan-950/50">
         <div className="flex items-center justify-center h-80 w-100 ">
-          Photo
+          <div className="flex items-center justify-center bg-white h-70 w-70 rounded-full ring-6">Photo</div>
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
@@ -80,7 +80,7 @@ const App = () => {
 
       <div className="flex flex-col items-center justify-center w-100 h-130 bg-white rounded-2xl shadow-cyan-950/50 shadow-lg hover:cursor-pointer transition duration-400 hover:shadow-cyan-950 hover:ring-2 text-cyan-950/50">
         <div className="flex items-center justify-center h-80 w-100 ">
-          Photo
+          <div className="flex items-center justify-center bg-white h-70 w-70 rounded-full ring-6">Photo</div>
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
@@ -91,7 +91,7 @@ const App = () => {
 
       <div className="flex flex-col items-center justify-center w-100 h-130 bg-white rounded-2xl shadow-cyan-950/50 shadow-lg hover:cursor-pointer transition duration-400 hover:shadow-cyan-950 hover:ring-2 text-cyan-950/50">
         <div className="flex items-center justify-center h-80 w-100 ">
-          Photo
+          <div className="flex items-center justify-center bg-white h-70 w-70 rounded-full ring-6">Photo</div>
         </div>
         <div className="flex flex-col items-center justify-center h-50 w-100 bg-gray-500 rounded-b-2xl">
           <div className="flex items-center justify-center text-black h-13 w-100 rounded-2xl">Nume</div>
