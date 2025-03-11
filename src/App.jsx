@@ -1,5 +1,6 @@
 import { CircleHelpIcon, HeadsetIcon, LogOutIcon, SearchIcon, SettingsIcon, UserIcon, WalletIcon } from 'lucide-react'
 import React from 'react'
+import { Button ,Tooltip } from "flowbite-react";
 import  { useState } from 'react';
 import { motion , AnimatePresence  } from 'framer-motion';
 
@@ -8,10 +9,22 @@ const App = () => {
   return (
     <div className=" flex flex-row bg-gray-400">
     <div class="flex flex-col h-screen w-25 bg-gray-700 items-center p-5 ">
-      <button onClick={() => setActiveSection('money')} className="flex items-center justify-center p-4 bg-gray-400 m-5 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><WalletIcon/></button>
-      <button onClick={() => setActiveSection('user')} className="flex items-center justify-center p-4 bg-gray-400 m-5 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><UserIcon/></button>
-      <button onClick={() => setActiveSection('settings')} className="flex items-center justify-center p-4 bg-gray-400 m-5 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><SettingsIcon/></button>
-      <button onClick={() => setActiveSection('help')} className="flex items-center justify-center p-4 bg-gray-400 m-5 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><CircleHelpIcon/></button>
+      <Tooltip content="Money" placement="right"  className="p-4 flex items-center justify-center" style="light">
+              <button onClick={() => setActiveSection('money')} className="flex items-center justify-center p-4 bg-gray-400 m-5 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><WalletIcon/></button>
+      </Tooltip>
+
+      <Tooltip content="Profile" placement="right"  className="p-4 flex items-center justify-center" style="light">
+              <button onClick={() => setActiveSection('user')} className="flex items-center justify-center p-4 bg-gray-400 m-5 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><UserIcon/></button>
+      </Tooltip>
+
+      <Tooltip content="Settings" placement="right"  className="p-4 flex items-center justify-center" style="light"> 
+              <button onClick={() => setActiveSection('settings')} className="flex items-center justify-center p-4 bg-gray-400 m-5 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><SettingsIcon/></button>
+      </Tooltip>
+
+      <Tooltip content="Help" placement="right"  className="p-4 flex items-center justify-center" style="light">
+              <button onClick={() => setActiveSection('help')} className="flex items-center justify-center p-4 bg-gray-400 m-5 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><CircleHelpIcon/></button>
+      </Tooltip>
+      
       <button className="flex align-baseline items-center justify-center p-4 bg-gray-400 m-240 rounded-3xl hover:rounded-2xl tranistion duration-400 hover:cursor-pointer ring-2 text-white hover:bg-gray-600"><LogOutIcon/></button>
 
     </div>
@@ -28,9 +41,15 @@ const App = () => {
           className="flex justify-center items-center h-screen w-full"
           >
             <div className="flex flex-row items-center justify-center">
-              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl hover:bg-gray-800 transition duration-400 ease-in-out hover:scale-110 hover:cursor-pointer hover:ring-2 hover:text-cyan-600">optiune1</div>
-              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl hover:bg-gray-800 transition duration-400 ease-in-out hover:scale-110 hover:cursor-pointer hover:ring-2 hover:text-cyan-600">optiune2</div>
-              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl hover:bg-gray-800 transition duration-400 ease-in-out hover:scale-110 hover:cursor-pointer hover:ring-2 hover:text-cyan-600">optiune3</div>
+              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl hover:bg-gray-800 transition duration-400 ease-in-out hover:scale-110 hover:cursor-pointer hover:ring-2 hover:text-cyan-600">
+
+              </div>
+              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl hover:bg-gray-800 transition duration-400 ease-in-out hover:scale-110 hover:cursor-pointer hover:ring-2 hover:text-cyan-600">
+
+              </div>
+              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl hover:bg-gray-800 transition duration-400 ease-in-out hover:scale-110 hover:cursor-pointer hover:ring-2 hover:text-cyan-600">
+                
+              </div>
             </div>
           </motion.div>
         )}
