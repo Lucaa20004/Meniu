@@ -28,9 +28,9 @@ const App = () => {
           className="flex justify-center items-center h-screen w-full"
           >
             <div className="flex flex-row items-center justify-center">
-              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl">optiune1</div>
-              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl">optiune2</div>
-              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl">optiune3</div>
+              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl hover:bg-gray-800 transition duration-400 ease-in-out hover:scale-110 hover:cursor-pointer hover:ring-2 hover:text-cyan-600">optiune1</div>
+              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl hover:bg-gray-800 transition duration-400 ease-in-out hover:scale-110 hover:cursor-pointer hover:ring-2 hover:text-cyan-600">optiune2</div>
+              <div className="flex items-center justify-center h-200 w-130 bg-white m-7 rounded-3xl hover:bg-gray-800 transition duration-400 ease-in-out hover:scale-110 hover:cursor-pointer hover:ring-2 hover:text-cyan-600">optiune3</div>
             </div>
           </motion.div>
         )}
@@ -40,7 +40,7 @@ const App = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.9 }}
-          transition={{ duration: 0.3 , ease: "easeInOut"}}
+          transition={{ duration: 0.5 , ease: "easeInOut"}}
           style={{
             position: "absolute", 
             top: "10%", 
