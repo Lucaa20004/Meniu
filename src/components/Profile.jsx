@@ -1,4 +1,4 @@
-const Contact = () => {
+const Profile = () => {
     return (
 
 
@@ -9,4 +9,4 @@ const Contact = () => {
     ) 
   };
   
-  export default Contact;
+  export default Profile;
