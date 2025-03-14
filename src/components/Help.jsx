@@ -9,10 +9,10 @@ const Help = () => {
 
 
     <motion.div 
-    className="flex justify-center items-center h-screen w-full bg-gray-400"
-    initial={{opacity: 0}}
-    animate={{opacity : 1}}
-    exit={{opacity: 0}}
+    className="flex justify-center items-center h-screen w-full bg-white"
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1, transition: { duration: 0.5, ease: "easeOut" } }} 
+    exit={{ opacity: 0, transition: { duration: 0.5, ease: "easeIn" } }}
     >
       
       <div className="grid grid-cols-4 items-center justify-center gap-30">

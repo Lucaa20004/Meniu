@@ -11,8 +11,10 @@ import Animated from './components/Animated';
 const App = () => {
   return (
     <Router>
-    <Animated />
     
+      <div className="h-screen overflow-hidden">
+        <Animated />
+      </div>
    </Router>
   )
 }
