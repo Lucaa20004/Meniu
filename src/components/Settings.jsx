@@ -1,10 +1,10 @@
 "use client"
 
-import { ChevronLeftIcon, ChevronRightIcon, UserIcon, BellIcon, LockKeyholeIcon, GlobeIcon } from "lucide-react"
+import { ChevronLeftIcon, ChevronRightIcon, UserIcon, BellIcon, LockKeyholeIcon, GlobeIcon, PictureInPicture2Icon, DatabaseIcon, CircleHelpIcon, MonitorSmartphoneIcon } from "lucide-react"
 
 function Settings() {
   return (
-    <div className="fixed inset-0 flex flex-col bg-gray-100">
+    <div className="fixed inset-0 flex flex-col bg-gray-400">
       {/* Fixed header */}
       <nav className="text-lg font-medium bg-gray-400 w-full z-20 shadow-lg flex items-center justify-center p-3">
         <button className="absolute left-2">
@@ -30,14 +30,14 @@ function Settings() {
           }
         `}</style>
 
-        <div className="max-w-md mx-auto mt-4 bg-white rounded-lg shadow-md">
+        <div className="max-w-md mx-auto mt-5 bg-white rounded-lg shadow-md">
           <ul className="divide-y divide-gray-200">
             {/* Account */}
             <li className="flex items-center p-4 hover:bg-gray-100 active:bg-gray-200 touch-manipulation cursor-pointer">
-              <UserIcon className="h-6 w-6 text-blue-500" />
+              <MonitorSmartphoneIcon className="h-6 w-6 text-blue-500" />
               <div className="ml-4 flex-1">
-                <p className="text-sm font-medium">Account</p>
-                <p className="text-xs text-gray-500">Privacy, security, change number</p>
+                <p className="text-sm font-medium">Linked Devices</p>
+                <p className="text-xs text-gray-500">See linked Devices, link a device</p>
               </div>
               <ChevronRightIcon className="h-5 w-5 text-gray-400" />
             </li>
@@ -78,7 +78,7 @@ function Settings() {
         <div className="max-w-md mx-auto mt-4 bg-white rounded-lg shadow-md">
           <ul className="divide-y divide-gray-200">
             <li className="flex items-center p-4 hover:bg-gray-100 active:bg-gray-200 touch-manipulation cursor-pointer">
-              <UserIcon className="h-6 w-6 text-blue-500" />
+              <PictureInPicture2Icon className="h-6 w-6 text-blue-500" />
               <div className="ml-4 flex-1">
                 <p className="text-sm font-medium">Display</p>
                 <p className="text-xs text-gray-500">Theme, wallpaper, chat settings</p>
@@ -87,7 +87,7 @@ function Settings() {
             </li>
 
             <li className="flex items-center p-4 hover:bg-gray-100 active:bg-gray-200 touch-manipulation cursor-pointer">
-              <BellIcon className="h-6 w-6 text-red-500" />
+              <DatabaseIcon className="h-6 w-6 text-red-500" />
               <div className="ml-4 flex-1">
                 <p className="text-sm font-medium">Storage</p>
                 <p className="text-xs text-gray-500">Network usage, auto-download</p>
@@ -105,7 +105,7 @@ function Settings() {
             </li>
 
             <li className="flex items-center p-4 hover:bg-gray-100 active:bg-gray-200 touch-manipulation cursor-pointer">
-              <GlobeIcon className="h-6 w-6 text-yellow-500" />
+              <CircleHelpIcon className="h-6 w-6 text-yellow-500" />
               <div className="ml-4 flex-1">
                 <p className="text-sm font-medium">Help</p>
                 <p className="text-xs text-gray-500">Help center, contact us, privacy policy</p>
